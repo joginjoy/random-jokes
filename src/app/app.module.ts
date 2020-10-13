@@ -5,12 +5,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
-import { RandomJokeServiceComponent } from './services/random-joke-service.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    RandomJokeServiceComponent
   ],
   imports: [
     BrowserModule,
