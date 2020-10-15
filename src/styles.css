@@ -135,6 +135,11 @@ a:hover {
   color: #125699;
 }
 
+.joke {
+  margin: 10px;
+  background-color: lightgrey;
+}
+
 .credit {
   display: flex;
   color: #888888;
